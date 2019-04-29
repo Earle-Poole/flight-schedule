@@ -12,7 +12,7 @@ $(function (){
 
 	$.ajax({
 		type: 'GET',
-		url: 'https://www.filltext.com/?&rows=3&fname={firstName}&lname={lastName}&country={country}&date={date|1-1-2020,1-1-2025}',
+		url: 'http://www.filltext.com/?&rows=3&fname={firstName}&lname={lastName}&country={country}&date={date|1-1-2020,1-1-2025}',
 		success: (flights) => {
 			$.each(flights, (i, flight) => { 
 				$flightDate = new Date(flight.date);
