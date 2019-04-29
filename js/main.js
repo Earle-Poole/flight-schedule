@@ -42,7 +42,6 @@ $(function (){
 
 	$fname.on('input', () => {
 		$fnameInput = $fname.val();
-		console.log($fnameInput)
 	})
 
 	$lname.on('input', () => {
